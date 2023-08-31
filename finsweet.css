@@ -121,11 +121,10 @@ h1{
   cursor: pointer;
 }
 
-.btn h4 a{
+.btn h4{
   color: white;
   font-family: sans-serif;
   font-size: 12px;
-  text-decoration: none;
 }
 
 .openTxt{
