@@ -1,0 +1,182 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: fit-content;
+  padding: 15px 0px;
+  margin:auto  220px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  z-index: 1;
+}
+
+.logo{
+  width: 100px;
+  height: auto;
+}
+
+.navRight{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 15px;
+  list-style: none;
+  height: auto;
+}
+
+li a{
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color:#1E1B1B;
+}
+
+.lineHeight{
+  height: 40px;
+  border: 1px solid lightgray;
+  opacity: 0.77;
+}
+
+.assistance{
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+}
+
+.contactIcon{
+  width: 40px;
+  height: 40px;
+}
+
+ol{
+  display: flex;
+  flex-direction: column;
+  row-gap: 3px;
+  width: auto;
+  height: auto;
+}
+
+ol h4{
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #939191;
+}
+
+ol h3{
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: #1E1B1B;
+}
+
+/* Main styling for header */
+header{
+  position: relative;
+  top: 130px;
+  margin: auto 220px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: auto;
+  height: auto;
+}
+
+.headerTxt{
+  width: auto;
+  height: fit-content;
+  margin:  63px 0px;
+}
+
+h1{
+  font-size: 40px;
+  font-family: sans-serif;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.btn{
+  padding: 16px 25px;
+  background: #FF6433;
+  border: none;
+  border-radius: 12px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.btn h4{
+  color: white;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.openTxt{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.timeIcon{
+  width: 30.94px;
+  height: 30.94px;
+}
+
+.textAst{
+  width: fit-content;
+  height: auto;
+}
+
+.textAst h4{
+  color: #939191;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: sans-serif;
+  margin-bottom: 6px;
+}
+
+.textAst h3{
+  font-size: 17px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.headerImg{
+  width: 45%;
+  height: auto;
+}
+
+.image{
+  width: 100%;
+}
+
+.service{
+  position: absolute;
+  top: 47px;
+  left: 485px;
+  width: 181.8px;
+}
+
+.rating{
+  position: absolute;
+  bottom: 52px;
+  right: -19px;
+  width: 209.06px;
+}
