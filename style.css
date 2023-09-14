@@ -31,7 +31,8 @@ ul{
   border-right: 1px solid lightgray;
   padding-right: 15px; 
 }
-ul li{
+ul a{
+  color: black;
   font-size: 15px;
   font-family: 'Manrope', sans-serif;
   font-weight: 600;
