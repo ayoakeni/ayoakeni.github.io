@@ -92,6 +92,9 @@ h1{
   font-weight: 800;
   width: 80%;
 }
+.btn{
+  display: flex;
+}
 .btn a{
   padding: 16px 25px;
   color: white;
