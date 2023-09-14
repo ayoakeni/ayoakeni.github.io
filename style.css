@@ -27,7 +27,7 @@ nav{
 ul{
   display: flex;
   align-items: center; 
-  column-gap: 12px;
+  column-gap: 25px;
   border-right: 1px solid lightgray;
   padding-right: 15px; 
 }
